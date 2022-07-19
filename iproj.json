@@ -7,6 +7,8 @@
     "repository": "git@github.com:bmarolleau/samco.git",
     "objlib": "&L01",
     "curlib": "*CRTDFT",
+      "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}",
     "extensions": {
         "arcad": {
             "libraryPrefix": "SAM"
