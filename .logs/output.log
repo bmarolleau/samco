@@ -1,216 +1,42 @@
-17:37:45.505 [INFO] Connecting locally to instance AD/ENG.
-17:37:46.461 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
-17:37:46.929 [INFO] Starting project synchronization
-17:37:47.635 [INFO] Performing automatic dry run from Git repository
-17:37:48.118 [INFO] Copying parent version .git repository /ArcADSCM/SAMCO/FT.00.00/.git to /home/BENOIT/samco
-17:37:53.378 [INFO] Fetch output:
-
-
-Pull output:
-
-Pull:                    50% (1/2)
-
-17:37:53.386 [INFO] Preparing transfer operations
-17:37:53.861 [ERROR] 29 mapping(s) not found in application SAMCO topology:
-	- BND
-	- BNDDIR/*BNDDIR
-	- CBL/*PGM
-	- CLLE/*MODULE
-	- CLLE/*PGM
-	- CMD/*CMD
-	- DSPF/*FILE
-	- DTAARA/*DTAARA
-	- ILEPGM/*PGM
-	- ILESRVPGM/*SRVPGM
-	- LF/*FILE
-	- MENU/*MENU
-	- MSGF/*MSGF
-	- PF/*FILE
-	- PNLGRP/*PNLGRP
-	- PRTF/*FILE
-	- RPG/*PGM
-	- RPGLE/*MODULE
-	- RPGLE/*PGM
-	- RPGLEINC
-	- SQLPRC
-	- SQLRPGLE/*MODULE
-	- SQLRPGLE/*PGM
-	- SQLSEQ/*SQLSEQ
-	- SQLTRG/*SQLTRG
-	- SQLUDF/*SQLUDF
-	- SYSTRG/*SYSTRG
-	- TABLE/*FILE
-	- VIEW/*FILE
-17:37:54.259 [ERROR] Could not check and load configuration from root directory /home/BENOIT/samco on localhost: Automatic dry run failed
-17:37:54.260 [ERROR] Configuration check failed: synchronization cannot carry on.
-17:37:54.260 [INFO] Duration: 6 second(s)
-17:37:54.265 [ERROR] ===== Synchronization report =====
-17:37:54.265 [ERROR] === 166 error(s) ===
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART202.PGM.RPGLE -> member ART202 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD901.PGM.SQLRPGLE -> member ORD901 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/LOG300.RPGLE -> member LOG300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QSRVSRC/FFAMILLY.BND -> member FFAMILLY (BND) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PRO202.SQLRPGLE -> member PRO202 (SQLRPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PARAMETER.PF -> member PARAMETER (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART300.RPGLE -> member ART300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.267 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/VAT.RPGLEINC -> member VAT (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ART201D.DSPF -> member ART201D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QPNLSRC/SAMMNU.MENU -> member SAMMNU (MENU/*MENU) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ORD701.SQLTRG -> member ORD701 (SQLTRG/*SQLTRG) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUSTOME2.LF -> member CUSTOME2 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QTRGSRC/ORD700A.SYSTRG -> member ORD700A (SYSTRG/*SYSTRG) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QTRGSRC/ORD700D.SYSTRG -> member ORD700D (SYSTRG/*SYSTRG) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUS301D.DSPF -> member CUS301D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.268 [ERROR] No mapping found for file SAMCO_SRC/QDTASRC/LASTORDNO.DTAARA -> member LASTORDNO (DTAARA/*DTAARA) in ARCAD application SAMCO topology
-17:37:54.269 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD200.PGM.SQLRPGLE -> member ORD200 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.269 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FARTICLE.ILESRVPGM -> member FARTICLE (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.269 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD201.PGM.SQLRPGLE -> member ORD201 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QCLSRC/ORD500C.PGM.CLLE -> member ORD500C (CLLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/PARAMETER.RPGLEINC -> member PARAMETER (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/COU301.RPGLE -> member COU301 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORD201D.DSPF -> member ORD201D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PAR300.RPGLE -> member PAR300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORDER.PF -> member ORDER (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.270 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/CUS300.RPGLE -> member CUS300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/CUS301.SQLRPGLE -> member CUS301 (SQLRPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORD100D.DSPF -> member ORD100D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/CUSSEQ.SQLSEQ -> member CUSSEQ (SQLSEQ/*SQLSEQ) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PRO201D.DSPF -> member PRO201D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QCLSRC/ORD100C.PGM.CLLE -> member ORD100C (CLLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FVAT.ILESRVPGM -> member FVAT (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/COUNTRY.RPGLEINC -> member COUNTRY (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.271 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/CUS200.PGM.SQLRPGLE -> member CUS200 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QSRVSRC/FARTICLE.BND -> member FARTICLE (BND) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/PROVIDER.RPGLEINC -> member PROVIDER (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORD500O.PRTF -> member ORD500O (PRTF/*FILE) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/FAM301.RPGLE -> member FAM301 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PROVIDER.PF -> member PROVIDER (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PRO200.RPGLE -> member PRO200 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUS200D.DSPF -> member CUS200D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD101.PGM.RPGLE -> member ORD101 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.272 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/LOG.ILESRVPGM -> member LOG (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FFAMILLY.ILESRVPGM -> member FFAMILLY (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/FAM301D.DSPF -> member FAM301D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QBNDSRC/SAMPLE.BNDDIR -> member SAMPLE (BNDDIR/*BNDDIR) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ART200D.DSPF -> member ART200D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/DAT001.PGM.RPGLE -> member DAT001 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QRPGSRC/COU200.RPG -> member COU200 (RPG/*PGM) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PRO200D.DSPF -> member PRO200D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/CUS250.PGM.RPGLE -> member CUS250 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.273 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ISOTODATE4.SQLUDF -> member ISOTODATE4 (SQLUDF/*SQLUDF) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ARTIPRO1.LF -> member ARTIPRO1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QTRGSRC/ORD700U.SYSTRG -> member ORD700U (SYSTRG/*SYSTRG) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FPROVIDER.ILESRVPGM -> member FPROVIDER (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/FAM300.RPGLE -> member FAM300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/FAMILL1.LF -> member FAMILL1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QCLSRC/ORD100C2.PGM.CLLE -> member ORD100C2 (CLLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/CUSTOMER.RPGLEINC -> member CUSTOMER (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.274 [ERROR] No mapping found for file SAMCO_SRC/QSRVSRC/FPROVIDER.BND -> member FPROVIDER (BND) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/DETORD1.LF -> member DETORD1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/APICALL.RPGLEINC -> member APICALL (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/LOG.RPGLEINC -> member LOG (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART301.SQLRPGLE -> member ART301 (SQLRPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/LOG100.PGM.RPGLE -> member LOG100 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QPNLSRC/SAMHELP.PNLGRP -> member SAMHELP (PNLGRP/*PNLGRP) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ART250D.DSPF -> member ART250D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.275 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUSTOMER.PF -> member CUSTOMER (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.276 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORDER1.LF -> member ORDER1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.276 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FCOUNTRY.ILESRVPGM -> member FCOUNTRY (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.276 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PROVIDE1.LF -> member PROVIDE1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.276 [ERROR] No mapping found for file SAMCO_SRC/QSRVSRC/FCUSTOMER.BND -> member FCUSTOMER (BND) in ARCAD application SAMCO topology
-17:37:54.276 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART200.PGM.SQLRPGLE -> member ART200 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.276 [ERROR] No mapping found for file SAMCO_SRC/QILESRC/PRO200.ILEPGM -> member PRO200 (ILEPGM/*PGM) in ARCAD application SAMCO topology
-17:37:54.277 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/ARTICLE.RPGLEINC -> member ARTICLE (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.277 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/SAMREF.PF -> member SAMREF (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.277 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ARTICLE2.LF -> member ARTICLE2 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.277 [ERROR] No mapping found for file SAMCO_SRC/QCMDSRC/CVTSPLPDF.CMD -> member CVTSPLPDF (CMD/*CMD) in ARCAD application SAMCO topology
-17:37:54.277 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PAR200.PGM.RPGLE -> member PAR200 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PAR200D.DSPF -> member PAR200D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ORDERCUS.VIEW -> member ORDERCUS (VIEW/*FILE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORD101D.DSPF -> member ORD101D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/VAT300.RPGLE -> member VAT300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PROVIDE2.LF -> member PROVIDE2 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/COU300.RPGLE -> member COU300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ARTICLE.PF -> member ARTICLE (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.278 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD100.PGM.RPGLE -> member ORD100 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORD202D.DSPF -> member ORD202D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PRO250D.DSPF -> member PRO250D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD500.PGM.RPGLE -> member ORD500 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD900.PGM.RPGLE -> member ORD900 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/VATDEF.PF -> member VATDEF (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ART801.SQLPRC -> member ART801 (SQLPRC) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PRO250.PGM.RPGLE -> member PRO250 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.279 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/COUNTRY.PF -> member COUNTRY (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QCBLSRC/PRO201.CBL -> member PRO201 (CBL/*PGM) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/COU301D.DSPF -> member COU301D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUSTOME1.LF -> member CUSTOME1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FCUSTOMER.ILESRVPGM -> member FCUSTOMER (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORDER3.LF -> member ORDER3 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ARTLSTDAT.VIEW -> member ARTLSTDAT (VIEW/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ADDRESS.PF -> member ADDRESS (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/COU200D.DSPF -> member COU200D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.280 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD700.PGM.RPGLE -> member ORD700 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUS250D.DSPF -> member CUS250D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PRO301D.DSPF -> member PRO301D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QCLSRC/PAR201.CLLE -> member PAR201 (CLLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/DETORD.PF -> member DETORD (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ART301D.DSPF -> member ART301D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QSRVSRC/FCOUNTRY.BND -> member FCOUNTRY (BND) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ISOTODATE.SQLUDF -> member ISOTODATE (SQLUDF/*SQLUDF) in ARCAD application SAMCO topology
-17:37:54.281 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PRO203.PGM.SQLRPGLE -> member PRO203 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORDER2.LF -> member ORDER2 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/COUNTR1.LF -> member COUNTR1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/CUSTADRE.PF -> member CUSTADRE (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QPROTOSRC/FAMILLY.RPGLEINC -> member FAMILLY (RPGLEINC) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QILESRC/PAR201.ILEPGM -> member PAR201 (ILEPGM/*PGM) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PRO301.SQLRPGLE -> member PRO301 (SQLRPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ARTICLE1.LF -> member ARTICLE1 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QSQLSRC/ARTIINF.TABLE -> member ARTIINF (TABLE/*FILE) in ARCAD application SAMCO topology
-17:37:54.282 [ERROR] No mapping found for file SAMCO_SRC/QCMDSRC/CRTORD.CMD -> member CRTORD (CMD/*CMD) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ORD202.PGM.RPGLE -> member ORD202 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ART202D.DSPF -> member ART202D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/PRO202D.DSPF -> member PRO202D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QMSGFSRC/SAMMSGF.MSGF -> member SAMMSGF (MSGF/*MSGF) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QILESRVSRC/FPARAMETER.ILESRVPGM -> member FPARAMETER (ILESRVPGM/*SRVPGM) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QSRVSRC/FVAT.BND -> member FVAT (BND) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ARTIPROV.PF -> member ARTIPROV (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.283 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART201.PGM.RPGLE -> member ART201 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART250.PGM.SQLRPGLE -> member ART250 (SQLRPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/ART302.SQLRPGLE -> member ART302 (SQLRPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ORD200D.DSPF -> member ORD200D (DSPF/*FILE) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/ARTIPRO2.LF -> member ARTIPRO2 (LF/*FILE) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QDDSSRC/FAMILLY.PF -> member FAMILLY (PF/*FILE) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/DAT002.PGM.RPGLE -> member DAT002 (RPGLE/*PGM) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] No mapping found for file SAMCO_SRC/QRPGLESRC/PRO300.RPGLE -> member PRO300 (RPGLE/*MODULE) in ARCAD application SAMCO topology
-17:37:54.284 [ERROR] Missing mapping BND
-17:37:54.284 [ERROR] Missing mapping BNDDIR/*BNDDIR
-17:37:54.285 [ERROR] Missing mapping CBL/*PGM
-17:37:54.285 [ERROR] Missing mapping CLLE/*MODULE
-17:37:54.285 [ERROR] Missing mapping CLLE/*PGM
-17:37:54.285 [ERROR] Missing mapping CMD/*CMD
-17:37:54.285 [ERROR] Missing mapping DSPF/*FILE
-17:37:54.285 [ERROR] Missing mapping DTAARA/*DTAARA
-17:37:54.285 [ERROR] Missing mapping ILEPGM/*PGM
-17:37:54.285 [ERROR] Missing mapping ILESRVPGM/*SRVPGM
-17:37:54.285 [ERROR] Missing mapping LF/*FILE
-17:37:54.286 [ERROR] Missing mapping MENU/*MENU
-17:37:54.286 [ERROR] Missing mapping MSGF/*MSGF
-17:37:54.286 [ERROR] Missing mapping PF/*FILE
-17:37:54.286 [ERROR] Missing mapping PNLGRP/*PNLGRP
-17:37:54.286 [ERROR] Missing mapping PRTF/*FILE
-17:37:54.286 [ERROR] Missing mapping RPG/*PGM
-17:37:54.286 [ERROR] Missing mapping RPGLE/*MODULE
-17:37:54.286 [ERROR] Missing mapping RPGLE/*PGM
-17:37:54.286 [ERROR] Missing mapping RPGLEINC
-17:37:54.287 [ERROR] Missing mapping SQLPRC
-17:37:54.287 [ERROR] Missing mapping SQLRPGLE/*MODULE
-17:37:54.287 [ERROR] Missing mapping SQLRPGLE/*PGM
-17:37:54.287 [ERROR] Missing mapping SQLSEQ/*SQLSEQ
-17:37:54.287 [ERROR] Missing mapping SQLTRG/*SQLTRG
-17:37:54.287 [ERROR] Missing mapping SQLUDF/*SQLUDF
-17:37:54.287 [ERROR] Missing mapping SYSTRG/*SYSTRG
-17:37:54.287 [ERROR] Missing mapping TABLE/*FILE
-17:37:54.287 [ERROR] Missing mapping VIEW/*FILE
-17:37:54.288 [ERROR] Configuration error: Could not check and load configuration from root directory /home/BENOIT/samco on localhost: Automatic dry run failed
-17:37:54.288 [ERROR] ===== End of synchronization report =====
-17:37:54.289 [ERROR] Failed to synchronize project with version SAMCO DEV SB.00.00
+11:47:01.973 [INFO] Connecting locally to instance AD/ENG.
+11:47:02.200 [DEBUG] Connecting with CCSID 37
+11:47:02.721 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_ENG) OBJTYPE(*LIB)
+11:47:02.736 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_FRA) OBJTYPE(*LIB)
+11:47:02.766 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_ENG) OBJTYPE(*LIB)
+11:47:02.768 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_FRA) OBJTYPE(*LIB)
+11:47:02.776 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK003G1.PGM
+11:47:03.080 [DEBUG] Running command ACHGPRMDAA NAME(ARCINSACT) DTAARALIB(QTEMP) CREATE(*YES) CRTLEN(2) VALUE(AD)
+11:47:03.121 [DEBUG] Running command CHKOBJ OBJ(ARCAD_PRD/AARK500G0) OBJTYPE(*PGM)
+11:47:03.122 [DEBUG] Running program /QSYS.LIB/QWCRDTAA.PGM
+11:47:03.132 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
+11:47:03.165 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK903R1.PGM
+11:47:03.199 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:03.284 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:03.667 [INFO] Starting project synchronization
+11:47:04.111 [DEBUG] Retrieved target application from code and repository
+11:47:04.122 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:04.504 [INFO] Configuration summary:
+	- Repository: git@github.com:bmarolleau/samco.git
+	- Branch: feature/myfeature
+	- Application: SAMCO
+	- Project IFS directory: /home/BENOIT/amp_samco
+	- Target IFS directory: /ArcADSCM/SAMCO/SB.00.00
+	- Target version: SAMCO DEV SB.00.00
+	- Hash comparison: MD5
+	- Synchronization type: SANDBOX
+11:47:04.505 [INFO] Preparing transfer operations
+11:47:04.601 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:04.617 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:04.625 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:04.653 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
+11:47:05.001 [ERROR] 1 mapping(s) not found in application SAMCO topology:
+	- TXT
+11:47:05.003 [INFO] Duration: 0 second(s)
+11:47:05.008 [ERROR] ===== Synchronization report =====
+11:47:05.009 [ERROR] === 2 error(s) ===
+11:47:05.011 [ERROR] No mapping found for file FilesToStage.txt -> member FILESTOSTA (TXT) in ARCAD application SAMCO topology
+11:47:05.011 [ERROR] Missing mapping TXT
+11:47:05.011 [WARN] === 1 warning(s) ===
+11:47:05.013 [WARN] Member name FilesToStage exceeds 10 characters; it has been truncated.
+11:47:05.013 [ERROR] ===== End of synchronization report =====
+11:47:05.014 [ERROR] Failed to synchronize project with version SAMCO DEV SB.00.00

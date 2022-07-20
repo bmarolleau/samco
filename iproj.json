@@ -1,17 +1,20 @@
 {
-    "description": "Arcad Demo",
-    "version": "0.0.1",
-    "includePath": [
-        "SAMCO_SRC/QPROTOSRC"
-    ],
-    "repository": "git@github.com:bmarolleau/samco.git",
-    "objlib": "&L01",
-    "curlib": "*CRTDFT",
-      "buildCommand": "elias compile {branch}",
+  "description": "Arcad Demo",
+  "version": "0.0.1",
+  "includePath": [
+    "SAMCO_SRC/QPROTOSRC"
+  ],
+  "repository": "git@github.com:bmarolleau/samco.git",
+  "objlib": "&verlibsamco",
+  "curlib": "*CRTDFT",
+  "buildCommand": "elias compile {branch} -V",
   "compileCommand": "elias compile {branch} -f {filename}",
-    "extensions": {
-        "arcad": {
-            "libraryPrefix": "SAM"
-        }
+  "extensions": {
+    "arcad": {
+      "libraryPrefix": "SAM",
+      "code": "SAMCO",
+      "iasp": "",
+      "validated": true
     }
+  }
 }
