@@ -1,21 +1,7 @@
-11:47:01.973 [INFO] Connecting locally to instance AD/ENG.
-11:47:02.200 [DEBUG] Connecting with CCSID 37
-11:47:02.721 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_ENG) OBJTYPE(*LIB)
-11:47:02.736 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_FRA) OBJTYPE(*LIB)
-11:47:02.766 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_ENG) OBJTYPE(*LIB)
-11:47:02.768 [DEBUG] Running command CHKOBJ OBJ(QSYS/ARCAD_FRA) OBJTYPE(*LIB)
-11:47:02.776 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK003G1.PGM
-11:47:03.080 [DEBUG] Running command ACHGPRMDAA NAME(ARCINSACT) DTAARALIB(QTEMP) CREATE(*YES) CRTLEN(2) VALUE(AD)
-11:47:03.121 [DEBUG] Running command CHKOBJ OBJ(ARCAD_PRD/AARK500G0) OBJTYPE(*PGM)
-11:47:03.122 [DEBUG] Running program /QSYS.LIB/QWCRDTAA.PGM
-11:47:03.132 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
-11:47:03.165 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK903R1.PGM
-11:47:03.199 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:03.284 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:03.667 [INFO] Starting project synchronization
-11:47:04.111 [DEBUG] Retrieved target application from code and repository
-11:47:04.122 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:04.504 [INFO] Configuration summary:
+12:12:40.006 [INFO] Connecting locally to instance AD/ENG.
+12:12:41.019 [INFO] Connected to Arcad Server instance AD/ENG version 22.01.00 with CCSID 37
+12:12:41.566 [INFO] Starting project synchronization
+12:12:42.376 [INFO] Configuration summary:
 	- Repository: git@github.com:bmarolleau/samco.git
 	- Branch: feature/myfeature
 	- Application: SAMCO
@@ -24,19 +10,134 @@
 	- Target version: SAMCO DEV SB.00.00
 	- Hash comparison: MD5
 	- Synchronization type: SANDBOX
-11:47:04.505 [INFO] Preparing transfer operations
-11:47:04.601 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:04.617 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:04.625 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:04.653 [DEBUG] Running program /QSYS.LIB/ARCAD_PRD.LIB/AARK500G0.PGM
-11:47:05.001 [ERROR] 1 mapping(s) not found in application SAMCO topology:
-	- TXT
-11:47:05.003 [INFO] Duration: 0 second(s)
-11:47:05.008 [ERROR] ===== Synchronization report =====
-11:47:05.009 [ERROR] === 2 error(s) ===
-11:47:05.011 [ERROR] No mapping found for file FilesToStage.txt -> member FILESTOSTA (TXT) in ARCAD application SAMCO topology
-11:47:05.011 [ERROR] Missing mapping TXT
-11:47:05.011 [WARN] === 1 warning(s) ===
-11:47:05.013 [WARN] Member name FilesToStage exceeds 10 characters; it has been truncated.
-11:47:05.013 [ERROR] ===== End of synchronization report =====
-11:47:05.014 [ERROR] Failed to synchronize project with version SAMCO DEV SB.00.00
+12:12:42.376 [INFO] Preparing transfer operations
+12:12:42.905 [INFO] Created 16 transfer operation(s)
+12:12:43.059 [INFO] Nothing to transfer to QRPGLESRC; all transfers were skipped.
+12:12:43.059 [INFO] Nothing to transfer to QRPGSRC; all transfers were skipped.
+12:12:43.060 [INFO] Nothing to transfer to QMSGFSRC; all transfers were skipped.
+12:12:43.060 [INFO] Nothing to transfer to QDTASRC; all transfers were skipped.
+12:12:43.061 [INFO] Nothing to transfer to QDDSSRC; all transfers were skipped.
+12:12:43.061 [INFO] Nothing to transfer to QCLSRC; all transfers were skipped.
+12:12:43.061 [INFO] Nothing to transfer to QILESRC; all transfers were skipped.
+12:12:43.061 [INFO] Nothing to transfer to QILESRVSRC; all transfers were skipped.
+12:12:43.062 [INFO] Nothing to transfer to QPNLSRC; all transfers were skipped.
+12:12:43.062 [INFO] Nothing to transfer to QCMDSRC; all transfers were skipped.
+12:12:43.062 [INFO] Nothing to transfer to QSQLSRC; all transfers were skipped.
+12:12:43.062 [INFO] Nothing to transfer to QTRGSRC; all transfers were skipped.
+12:12:43.063 [INFO] Nothing to transfer to QSRVSRC; all transfers were skipped.
+12:12:43.063 [INFO] Nothing to transfer to QPROTOSRC; all transfers were skipped.
+12:12:43.063 [INFO] Nothing to transfer to QCBLSRC; all transfers were skipped.
+12:12:43.063 [INFO] Nothing to transfer to QBNDSRC; all transfers were skipped.
+12:12:43.236 [INFO] Exported transfers list to /ArcADSCM/SAMCO/SB.00.00/transfersList.json
+12:12:43.237 [INFO] Duration: 1 second(s)
+12:12:43.247 [INFO] Preparing a full build using Macro-command *LIBL/BUILD
+12:12:43.264 [INFO] Running full build on version SAMCO DEV SB.00.00 using Macro-command *LIBL/BUILD
+12:12:45.324 [INFO] Macro-command BUILD instance 3 started.
+12:12:45.339 [INFO] Macro-command submitted in job 373398/BENOIT/BUILD
+12:12:46.225 [INFO] Sequence 10: ACHGVAR VAR(WTGTRLS) VALUE('*CURRENT')
+12:12:46.226 [INFO] Sequence 20: AGETAPPVAR ENV(SAMCO *NONE *NONE) GRPVAR(ARCAD_STANDARD) GRPVAL(CHANGER) VAR(TGTRLS) TOVAR(WTGTRLS)
+12:12:46.227 [INFO] Sequence 30: ACHGVAR VAR(WBYPASS) VALUE('*NO')
+12:12:46.227 [INFO] Sequence 40: AGETAPPVAR ENV(SAMCO *NONE *NONE) GRPVAR(ARCAD_STANDARD) GRPVAL(CHANGER) VAR(BUILD_ALLOW_BYPASS) TOVAR(WBYPASS)
+12:12:46.227 [INFO] Sequence 50: ACHGVAR VAR(WSTATUS) VALUE('KO')
+12:12:46.228 [INFO] Sequence 60: ACHKLST LIST(SAMSB0000/LSTDLVSRC)
+12:12:46.229 [ERROR] [MSG0318]: List SAMSB0000/LSTDLVSRC does not exist.
+12:12:46.230 [INFO] Sequence 70: AIF COND((*IF MSG0318 *EQ MSG0318)) THEN(ACHGVAR VAR(PMODE) VALUE(*FULL) TYPE(*CHAR))
+12:12:46.230 [INFO] Sequence 80: ACHKVER APP(SAMCO) ENV(DEV) VERSION(SB.00.00) AUT(*YES) ACTIVE(*YES) CHKVLD(*NO)
+12:12:46.230 [INFO] Sequence 90: AINZCURENV APP(SAMCO) ENV(DEV) VERSION(SB.00.00)
+12:12:46.231 [INFO] Sequence 100: ACRTLST LIST(SAMSB0000/LSTSRCBLD) REPLACE(*YES) TEXT('List of sources to build')
+12:12:46.231 [INFO] Sequence 110: ACRTLST LIST(SAMSB0000/LSTXREF) REPLACE(*YES) TEXT('List of Xref compile')
+12:12:46.232 [INFO] Sequence 120: ACRTLST LIST(SAMSB0000/LSTBYPASS) REPLACE(*YES) TEXT('List of components that doesn''t compile')
+12:12:46.232 [INFO] Sequence 120: ACRTLST LIST(SAMSB0000/LSTBYPASS) REPLACE(*YES) TEXT('List of components that doesn''t compile')
+12:12:46.233 [INFO] Sequence 130: ACHKLST LIST(ARC_SAMLST/LSTBYPASS)
+12:12:46.233 [INFO] Sequence 140: ACRTREFLST APP(SAMCO) FROMVERS(SB.00.00) TOVERS(*FROMVERS) LIBTYPE(*ENV) TOSRCLIST(SAMSB0000/LSTSRCBLD) TOOBJLIST(SAMSB0000/LSTOBJBLD) INCDLT(*YES) GENSTEP(*MAINT)
+12:12:46.233 [INFO] Sequence 150: AEXCSQL SQLSTM('update SAMSB0000/lstsrcbld s set LST_CZSEL7 = ( select t.TYP_CXTYPE FROM ARCAD_PRD/aARTTYPF1 t WHERE t.TYP_CISSRC = ''1'' and t.typ_ctype = s.LST_CTYPE and t.TYP_CCPLT = s.lst_ccplt  )                                        where exis
+12:12:46.235 [INFO] Sequence 160: AEXTLST FROMLIST(SAMSB0000/LSTSRCBLD) TOLIST(SAMSB0000/LSTDELETE) RMVELEM(*YES) SELECT(*ALL *ALL () () *ALL *ALL *ALL *NONE *NONE *ALL H ())
+12:12:46.235 [INFO] Sequence 170: AINZLST LIST(SAMSB0000/LSTDELETE) UNHLDELEM(*YES)
+12:12:46.236 [INFO] Sequence 180: AIF COND((*IF *FULL *EQ '*DELTA')) THEN(ACALLSUBR SUBR(DELTA))
+12:12:46.236 [INFO] Sequence 190: ACHKLST LIST(SAMSB0000/LSTSRCBLD) CHKELEM(*YES)
+12:12:46.236 [INFO] Sequence 200: AEXTLST FROMLIST(SAMSB0000/LSTSRCBLD) TOLIST(SAMSB0000/LSTRCPL0) TOLISTTEXT('List of sources with object') EXPR('LST_JXLIB *NE '' ''')
+12:12:46.237 [INFO] Sequence 210: AEXTLST FROMLIST(SAMSB0000/LSTSRCBLD) TOLIST(SAMSB0000/LSTSRCCOPY) TOLISTTEXT('List of sources without object') EXPR('LST_JXLIB = '' ''')
+12:12:47.725 [INFO] Sequence 220: ACRTSXRLST REFTYPE(*INCLUDE) RTVSUBLVL(*YES) FROMREF(*LST) LNKTYPE(*COPYPGM) INCREFOBJ(*NO) LIST(SAMSB0000/LSTSRCCOPY) APP(SAMCO) VERSLVL(*CURENV) TOLIST(SAMSB0000/LSTRCPLCPY) CHKVERCPL(*YES) USEAPPLNK(*NONE)
+12:12:47.726 [INFO] Sequence 230: AEXTLST FROMLIST(SAMSB0000/LSTRCPLCPY) TOLIST(*NONE) RMVELEM(*YES) SELECT(*ALL *ALL () () *ALL *ALL *ALL *NONE *NONE *ALL H ())
+12:12:47.726 [INFO] Sequence 240: AEXCSQL SQLSTM('update SAMSB0000/LSTRCPLCPY s set LST_CZSEL7 = ( select t.TYP_CXTYPE FROM ARCAD_PRD/aARTTYPF1 t WHERE t.TYP_CISSRC = ''1'' and t.typ_ctype = s.LST_CTYPE and t.TYP_CCPLT = s.lst_ccplt  )                                      where exist
+12:12:47.727 [INFO] Sequence 250: AEXCSQL SQLSTM(' delete   from SAMSB0000/LSTRCPLCPY x   where  exists  (select lst_ctype from SAMSB0000/lstsrcbld s  where  s.LST_CZSEL7 = x.LST_CZSEL7 and s.lst_jobj = x.lst_jobj  and s.lst_ctype <> x.lst_ctype)')
+12:12:47.727 [INFO] Sequence 260: AEXCSQL SQLSTM('delete   from SAMSB0000/LSTRCPLCPY           WHERE LST_JXLIB = '' ''')
+12:12:47.728 [INFO] Sequence 270: ACALLSUBR SUBR(CPL1)
+12:12:47.728 [INFO] Sequence 390: AEXTLST FROMLIST(SAMSB0000/LSTRCPL0) TOLIST(SAMSB0000/LSTRCPL1) TOLISTTEXT('List of source for *FILE') EXPR('LST_NORD *LE 7')
+12:12:47.728 [INFO] Sequence 400: AEXTLST FROMLIST(SAMSB0000/LSTRCPL1) TOLIST(*NONE) RMVELEM(*YES) EXPR('LST_CTYPE *CT ''*''')
+12:12:47.728 [INFO] Sequence 410: AADJLSTORD LIST(SAMSB0000/LSTRCPL1) SRCLIB(*LIBL) FILE(*YES) SRVPGM(*NO)
+12:12:47.729 [INFO] Sequence 420: ACHGVAR VAR(WLSTCPL) VALUE(LSTRCPL1)
+12:12:47.729 [INFO] Sequence 430: ACPLOBJ OBJ(*LST) LIST(SAMSB0000/LSTRCPL1) SRCLIB(*LIBL) ORDLIST(*YES) MODE(*INTER) XREFLIST(*YES) TOLIST(*CURENV/LSTXREF) CPLMOD1DEP(*NO) TGTRLS(*CURRENT) EVENTF(*EVENTF)
+12:12:47.731 [WARN] [MSG2218]: No processing, list LSTRCPL1 in library SAMSB0000 is empty.
+12:12:47.731 [WARN] [MSG0201]: No element in list SAMSB0000/LSTRCPL1.
+12:12:47.731 [WARN] [MSG0233]: ---> BUILD/0430: executed, warning issued. ->
+12:12:47.731 [INFO] Sequence 440: AEXCSQL SQLSTM('update SAMSB0000/LSTXREF s set LST_CZSEL7 = ( select t.TYP_CXTYPE FROM ARCAD_PRD/aARTTYPF1 t WHERE t.TYP_CISSRC = ''1'' and t.typ_ctype = s.LST_CTYPE and t.TYP_CCPLT = s.lst_ccplt  )                                         where exist
+12:12:47.732 [INFO] Sequence 450: AEXCSQL SQLSTM(' delete   from SAMSB0000/lstxref   x    where  exists  (select lst_ctype from SAMSB0000/lstsrcbld s  where  s.LST_CZSEL7 = x.LST_CZSEL7 and s.lst_jobj = x.lst_jobj  and s.lst_ctype <> x.lst_ctype)')
+12:12:47.732 [INFO] Sequence 280: ACALLSUBR SUBR(CPL2)
+12:12:47.733 [INFO] Sequence 470: AEXTLST FROMLIST(SAMSB0000/LSTRCPL0) TOLIST(SAMSB0000/LSTRCPL2) TOLISTTEXT('List of source for order 8-11 (... *MODULE)') EXPR('LST_NORD *GE 8 *and LST_NORD *LE 11')
+12:12:47.733 [INFO] Sequence 480: AEXTLST FROMLIST(SAMSB0000/LSTRCPLCPY) TOLIST(SAMSB0000/LSTRCPL2) OPTION(*ADD) EXPR('LST_NORD *GE 8 *and LST_NORD *LE 11')
+12:12:47.734 [INFO] Sequence 490: AEXTLST FROMLIST(SAMSB0000/LSTXREF) TOLIST(SAMSB0000/LSTRCPL2) OPTION(*ADD) EXPR('LST_NORD *GE 8 *and LST_NORD *LE 11')
+12:12:47.734 [INFO] Sequence 500: AEXTLST FROMLIST(SAMSB0000/LSTRCPL2) TOLIST(*NONE) RMVELEM(*YES) EXPR('LST_CTYPE *CT ''*''')
+12:12:47.737 [INFO] Sequence 510: AUPDLST LIST(SAMSB0000/LSTRCPL2)
+12:12:47.737 [INFO] Sequence 520: AINZLST LIST(SAMSB0000/LSTRCPL2) STATUS('H') FROMLIST(SAMSB0000/LSTDELETE)
+12:12:47.737 [INFO] Sequence 530: ACHGVAR VAR(WLSTCPL) VALUE(LSTRCPL2)
+12:12:47.738 [INFO] Sequence 540: ACPLOBJ OBJ(*LST) LIST(SAMSB0000/LSTRCPL2) SRCLIB(*LIBL) MODE(*INTER) XREFLIST(*YES) TOLIST(*CURENV/LSTXREF) CPLMOD1DEP(*NO) TGTRLS(*CURRENT) EVENTF(*EVENTF)
+12:12:49.255 [WARN] [MSG0201]: No element in list SAMSB0000/LSTRCPL2.
+12:12:49.255 [WARN] [MSG0233]: ---> BUILD/0540: executed, warning issued. ->
+12:12:49.255 [INFO] Sequence 550: AEXCSQL SQLSTM('update SAMSB0000/LSTXREF s set LST_CZSEL7 = ( select t.TYP_CXTYPE FROM ARCAD_PRD/aARTTYPF1 t WHERE t.TYP_CISSRC = ''1'' and t.typ_ctype = s.LST_CTYPE and t.TYP_CCPLT = s.lst_ccplt  )                                         where exist
+12:12:49.255 [INFO] Sequence 560: AEXCSQL SQLSTM(' delete   from SAMSB0000/lstxref   x    where  exists (select lst_ctype from SAMSB0000/lstsrcbld s  where  s.LST_CZSEL7 = x.LST_CZSEL7 and s.lst_jobj = x.lst_jobj  and s.lst_ctype <> x.lst_ctype)')
+12:12:49.256 [INFO] Sequence 290: ACALLSUBR SUBR(CPL3)
+12:12:49.256 [INFO] Sequence 580: AEXTLST FROMLIST(SAMSB0000/LSTRCPL0) TOLIST(SAMSB0000/LSTRCPL3) TOLISTTEXT('List of source for order 12 (*SRVPGM)') EXPR('LST_NORD *EQ 12')
+12:12:49.256 [INFO] Sequence 590: AEXTLST FROMLIST(SAMSB0000/LSTXREF) TOLIST(SAMSB0000/LSTRCPL3) OPTION(*ADD) EXPR('LST_NORD *EQ 12')
+12:12:49.256 [INFO] Sequence 600: AEXTLST FROMLIST(SAMSB0000/LSTRCPL3) TOLIST(*NONE) RMVELEM(*YES) EXPR('LST_CTYPE *CT ''*''')
+12:12:49.257 [INFO] Sequence 610: AUPDLST LIST(SAMSB0000/LSTRCPL3)
+12:12:49.257 [INFO] Sequence 620: AINZLST LIST(SAMSB0000/LSTRCPL3) STATUS('H') FROMLIST(SAMSB0000/LSTDELETE)
+12:12:49.257 [INFO] Sequence 630: ACHGVAR VAR(WLSTCPL) VALUE(LSTRCPL3)
+12:12:49.258 [INFO] Sequence 640: ACPLOBJ OBJ(*LST) LIST(SAMSB0000/LSTRCPL3) SRCLIB(*LIBL) MODE(*INTER) XREFLIST(*NO) TOLIST(*CURENV/LSTXREF) TGTRLS(*CURRENT) EVENTF(*EVENTF)
+12:12:49.258 [WARN] [MSG0201]: No element in list SAMSB0000/LSTRCPL3.
+12:12:49.258 [WARN] [MSG0233]: ---> BUILD/0640: executed, warning issued. ->
+12:12:49.258 [INFO] Sequence 650: AADJLSTORD LIST(SAMSB0000/LSTRCPL3) SRCLIB(*LIBL) FILE(*NO) SRVPGM(*YES)
+12:12:49.258 [INFO] Sequence 660: ACPLOBJ OBJ(*LST) LIST(SAMSB0000/LSTRCPL3) SRCLIB(*LIBL) MODE(*INTER) XREFLIST(*YES) TOLIST(*CURENV/LSTXREF) TGTRLS(*CURRENT) EVENTF(*EVENTF)
+12:12:49.258 [WARN] [MSG0201]: No element in list SAMSB0000/LSTRCPL3.
+12:12:49.259 [WARN] [MSG0233]: ---> BUILD/0660: executed, warning issued. ->
+12:12:49.259 [INFO] Sequence 670: AEXCSQL SQLSTM('update SAMSB0000/LSTXREF s set LST_CZSEL7 = ( select t.TYP_CXTYPE FROM ARCAD_PRD/aARTTYPF1 t WHERE t.TYP_CISSRC = ''1'' and t.typ_ctype = s.LST_CTYPE and t.TYP_CCPLT = s.lst_ccplt  )                                         where exist
+12:12:49.259 [INFO] Sequence 680: AEXCSQL SQLSTM(' delete   from SAMSB0000/lstxref   x    where  exists  (select lst_ctype from SAMSB0000/lstsrcbld s  where  s.LST_CZSEL7 = x.LST_CZSEL7 and s.lst_jobj = x.lst_jobj  and s.lst_ctype <> x.lst_ctype)')
+12:12:49.259 [INFO] Sequence 300: ACALLSUBR SUBR(CPL4)
+12:12:49.260 [INFO] Sequence 700: AEXTLST FROMLIST(SAMSB0000/LSTRCPL0) TOLIST(SAMSB0000/LSTRCPL4) TOLISTTEXT('List of sources of order 13-xx(... *PGM)') EXPR('LST_NORD *GE 13')
+12:12:49.260 [INFO] Sequence 710: AEXTLST FROMLIST(SAMSB0000/LSTRCPLCPY) TOLIST(SAMSB0000/LSTRCPL4) OPTION(*ADD) EXPR('LST_NORD *GE 13')
+12:12:49.260 [INFO] Sequence 720: AEXTLST FROMLIST(SAMSB0000/LSTXREF) TOLIST(SAMSB0000/LSTRCPL4) OPTION(*ADD) EXPR('LST_NORD *GE 13')
+12:12:49.260 [INFO] Sequence 730: AEXTLST FROMLIST(SAMSB0000/LSTRCPL4) TOLIST(*NONE) RMVELEM(*YES) EXPR('LST_CTYPE *CT ''*''')
+12:12:49.261 [INFO] Sequence 740: AUPDLST LIST(SAMSB0000/LSTRCPL4)
+12:12:49.261 [INFO] Sequence 750: AINZLST LIST(SAMSB0000/LSTRCPL4) STATUS('H') FROMLIST(SAMSB0000/LSTDELETE)
+12:12:49.262 [INFO] Sequence 760: ACHGVAR VAR(WLSTCPL) VALUE(LSTRCPL4)
+12:12:49.262 [INFO] Sequence 770: ACPLOBJ OBJ(*LST) LIST(SAMSB0000/LSTRCPL4) SRCLIB(*LIBL) MODE(*INTER) XREFLIST(*YES) TOLIST(*CURENV/LSTXREF) TGTRLS(*CURRENT) EVENTF(*EVENTF)
+12:12:50.644 [ERROR] [CPF5815]: Member ART201 for file ZZARCSRCF in library QTEMP not found.
+12:12:50.644 [ERROR] [CPC7301]: File EVFEVENT created in library SAMSB0000.
+12:12:50.644 [ERROR] [CPC7305]: Member ART201 added to file EVFEVENT in SAMSB0000.
+12:12:50.645 [ERROR] [MSG3666]: *** Messages sent by the Compilation job ***
+12:12:50.645 [ERROR] [MSG2796]: Compilation of ART201 (RPGLE) in version SAMCO DEV SB.00.00
+12:12:50.645 [ERROR] [MSG2699]: No object ART201, of type *PGM has been found in the *LIBL.
+12:12:50.645 [ERROR] [CPC5D02]: Binding directory ARCBNDDIR created in library QTEMP.
+12:12:50.645 [ERROR] [CPD5D0A]: Object *LIBL/FARTICLE type *SRVPGM added to binding directory ARCBNDDIR in library QTEMP.
+12:12:50.645 [ERROR] [CPC5D05]: 1 entries added, 0 entries not added to Binding directory ARCBNDDIR in library QTEMP.
+12:12:50.645 [ERROR] [CPD5D0A]: Object *LIBL/FPROVIDER type *SRVPGM added to binding directory ARCBNDDIR in library QTEMP.
+12:12:50.646 [ERROR] [CPC5D05]: 1 entries added, 0 entries not added to Binding directory ARCBNDDIR in library QTEMP.
+12:12:50.646 [ERROR] [ *IMMED]: CRTBNDRPG PGM(SAMSB0000/ART201) SRCFILE(SAMCO_SRC/QRPGLESRC)  BNDDIR( QTEMP/ARCBNDDIR)  ACTGRP(QILE) DFTACTGRP(*NO) REPLACE(*YES) TGTRLS(V7R3M0) OPTION(*EVENTF)
+12:12:50.646 [ERROR] [MSG1573]: *** Messages sent by the Compilation ***
+12:12:50.646 [ERROR] [CPF4102]: File QPROTOSRC in library *LIBL with member PROVIDER not found.
+12:12:50.646 [ERROR] [CPF4102]: File QPROTOSRC in library *LIBL with member ARTICLE not found.
+12:12:50.646 [ERROR] [RNS9308]: Compilation stopped. Severity 40 errors found in program.
+12:12:50.646 [ERROR] [CPC0904]: Data area RETURNCODE created in library QTEMP.
+12:12:50.647 [ERROR] [RNS9310]: Compilation failed. Program ART201 not created in library SAMSB0000.
+12:12:50.647 [ERROR] [MSG2235]: * Object SAMSB0000/ART201 compilation failure
+12:12:50.647 [ERROR] [MSG1569]: ABNORMAL end of compilations, 1 compilation(s) out of 1 abnormally ended.
+12:12:50.647 [INFO] Sequence 790: AIF COND((*IF *NO *EQ *NO)) THEN(AGOTO STEP(ERMSG))
+12:12:50.647 [INFO] Sequence 830: AERROR MSG('Error during the main Build process. See list LSTRCPL4')
+12:12:50.648 [ERROR] [MSG4226]: An error was raised: Error during the main Build process. See list LSTRCPL4.
+12:12:51.896 [INFO] Job 373398/BENOIT/BUILD ended abnormally
+12:12:51.898 [ERROR] Version SAMCO DEV SB.00.00 build failed.
+12:12:52.489 [ERROR] 0 component(s) compiled; 1 failed to compile:
+	- ART201 (RPGLE/*PGM)
+12:12:52.490 [INFO] Writing compilation logs
+12:12:52.554 [INFO] Writing 2 spooled file(s)
+12:12:52.988 [INFO] Writing 1 event file(s)
